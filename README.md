@@ -55,8 +55,8 @@ This repository contains code for training and evaluating segmentation models on
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd Colgate
+git clone https://github.com/LHZ98/Colgate-kibble-pet-food
+cd Colgate-kibble-pet-food
 
 # Install dependencies
 pip install -r requirements.txt
@@ -167,11 +167,6 @@ python train_baselines.py --dir_save './checkpoints_baselines/checkpoints_UNet2P
 python train_baselines.py --dir_save './checkpoints_baselines/checkpoints_SwinUNet/' --epoch 100 --amp --scale 0.25 --classes 4 --batch 4 --model 'SwinUNet'
 python train_baselines.py --dir_save './checkpoints_baselines/checkpoints_UNetFormer/' --epoch 100 --amp --scale 0.25 --classes 4 --batch 4 --model 'UNetFormer'
 ```
-
-## Environment
-
-- Training: conda environment 'cyolo'
-- Testing: virtual kernel in jupyter notebook 'robustlearning'
 
 ## License
 
