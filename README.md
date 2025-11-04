@@ -133,13 +133,24 @@ data/
     └── masks/
 ```
 
-## Model Weights
+## Model Weights and Data
 
-The trained model weights can be found in the checkpoints directories. The following models are available:
+Trained model weights and datasets are available on Google Drive:
 
-- Proposed method checkpoint
-- Ablation experiment checkpoints (no_self, no_spatial)
-- Baseline model checkpoints (UNet, UNet2Plus, UNet3Plus, UNetFormer, SwinUNet)
+**Download Link:** [Google Drive](https://drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-globalnav-goto)
+
+The following resources are available:
+
+- **Pre-trained Models:**
+  - Proposed method checkpoint
+  - Ablation experiment checkpoints (no_self, no_spatial)
+  - Baseline model checkpoints (UNet, UNet2Plus, UNet3Plus, UNetFormer, SwinUNet)
+
+- **Datasets:**
+  - Training and validation datasets for kibble X-ray images
+  - Preprocessed data for segmentation tasks
+
+Please download the necessary files from Google Drive and organize them according to the folder structure mentioned above.
 
 ## Example Scripts
 
